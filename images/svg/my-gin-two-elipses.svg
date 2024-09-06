@@ -1,0 +1,22 @@
+<svg width="770" height="542" viewBox="0 0 770 542" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="452.25" cy="452.609" r="452.25" fill="url(#paint0_linear_22_2938)" fill-opacity="0.07"/>
+<circle cx="452.25" cy="452.609" r="451.75" stroke="white" stroke-opacity="0.12"/>
+<circle cx="452.25" cy="446.107" r="337.562" fill="url(#paint1_linear_22_2938)" fill-opacity="0.07"/>
+<circle cx="452.25" cy="446.107" r="337.062" stroke="white" stroke-opacity="0.12"/>
+<ellipse cx="452.25" cy="438.717" rx="205.729" ry="205.434" fill="url(#paint2_linear_22_2938)" fill-opacity="0.07"/>
+<path d="M657.479 438.717C657.479 551.898 565.596 643.651 452.25 643.651C338.904 643.651 247.021 551.898 247.021 438.717C247.021 325.536 338.904 233.783 452.25 233.783C565.596 233.783 657.479 325.536 657.479 438.717Z" stroke="white" stroke-opacity="0.12"/>
+<defs>
+<linearGradient id="paint0_linear_22_2938" x1="452.25" y1="0.359375" x2="452.25" y2="904.859" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint1_linear_22_2938" x1="452.25" y1="108.545" x2="452.25" y2="783.668" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint2_linear_22_2938" x1="452.25" y1="233.283" x2="452.25" y2="644.151" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>
