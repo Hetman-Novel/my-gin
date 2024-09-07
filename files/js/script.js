@@ -29,4 +29,22 @@ document.addEventListener('DOMContentLoaded', function () {
          boxes[i].style.height = height + 'px';
       }
    }
+
+   const formWidgetSubscribe = document.querySelector('.form-widget-subscribe');
+   if (formWidgetSubscribe) {
+      formWidgetSubscribe.addEventListener('submit', function(e) {
+         e.preventDefault(); // Останавливаем стандартное действие отправки формы
+         const inputField = this.querySelector('input[type="text"]');
+         const email = inputField.value;
+         const emailPattern = /^[^\s@]+@[^\s@]+\.(com|ru|net|org|gov|edu)$/i; // Частичные окончания доменов
+     
+         if (!emailPattern.test(email)) {
+            this.classList.add('no-valid'); // Добавляем класс no-valid если email не соответствует
+         } else {
+            this.classList.remove('no-valid'); // Убираем класс если email валиден
+            // Здесь можно добавить действие для успешной валидации, например отправку формы
+            this.submit(); // Отправляем форму, если все верно
+         }
+     });
+   }
 });
